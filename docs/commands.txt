@@ -1,0 +1,8 @@
+# Create .gitignore file using New-Item
+New-Item -ItemType file -Name .gitignore
+
+# Open .gitignore file in VSCode
+code .gitignore
+
+Note: Force pushing can overwrite changes made by others on the remote branch. Use it only if you are certain that your local branch should completely replace the remote branch.
+git push --force origin raghu 

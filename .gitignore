@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Local development settings
+.env
+*.sqlite3
+/calculator.db
+
+# Static files (usually collected by Flask's collectstatic)
+static/
+
+# Virtual environment (if using virtualenv or venv)
+venv/
+env/
+/flask-project-env
+/venv
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+
+# Logs and backups
+*.log
+*.bak
+/logs
+
+# Ignore local configuration files
+*.local.yml
+*.local.json
+
+# Flask specific files
+/instance
